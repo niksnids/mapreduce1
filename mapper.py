@@ -35,10 +35,9 @@ for line in sys.stdin:
     data = line.strip().split("\t")
 
     # store the 6 elements of the tuple in seperate variables
-    date, time, item, category, sales, payment = data
-   try:
+    try:
         date, time, item, category, sales, payment = data  
-   except:
+    except:
         print("Error: Less than six elements in the tupel")
 
 
@@ -46,4 +45,5 @@ for line in sys.stdin:
     # Key is the payment, value is the sales     
     # With a tab (\t) between key and value
     # New line \n means new record
+    subset = ["Computers", "Cameras", "Video Games"]
     sys.stdout.write("{0}\t{1}\n".format(category, sales))
