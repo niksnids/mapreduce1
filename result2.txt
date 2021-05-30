@@ -15,4 +15,4 @@ Pet Supplies	27359.5
 Sporting Goods	27723.72
 Toys	27382.74
 Video Games	29817.37
-Women's Clothing	24167.39
+Women's Clothing	99
