@@ -46,5 +46,6 @@ for line in sys.stdin:
     # With a tab (\t) between key and value
     # New line \n means new record
     subset = ["Computers", "Cameras", "Video Games"]
-    if category in subset:
-       sys.stdout.write("{0}\t{1}\n".format(category, sales))
+   # if category in subset:
+
+    sys.stdout.write("{0}\t{1}\n".format(category, sales))
